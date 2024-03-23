@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTTER Bitcoin</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header
+        style="width: 100%; height: auto; background-image: url(bg_mesh.svg); background-repeat: no-repeat; background-position: center; background-color:#0d2b20;">
+
+        <nav class="navbar navbar-expand-sm text-white p-3  sticky-top fixed-top" id="nav"
+            style="background-color: black;">
+            <div class="container pt-2">
+                <div class="col-2">
+                    <img src="logo.png" alt="" width="40px">&nbsp;
+                    <a class="navbar-brand fw-bold fs-4" href="#" style="color: #ffffff;">OTTER</a>
+                </div>
+                <button class="navbar-toggler  m-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar" id="navbtn">
+                    <span class="navbar-toggler-icon" id="navicon"></span>
+                </button>
+                <div class="col-7  ">
+                    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                        <ul class="navbar-nav " style="font-size: 15px;">
+                            <li class="nav-item ps-5 active ">
+                                <a class="nav-link text-white" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ps-5 ">
+                                <a class="nav-link text-white" href="#Why">About App</a>
+                            </li>
+                            <li class="nav-item ps-5 ">
+                                <a class="nav-link text-white" href="#How">How It Works</a>
+                            </li>
+                            <li class="nav-item ps-5 ">
+                                <a class="nav-link text-white" href="#Roadmap">Roadmap</a>
+                            </li>
+                            <li class="nav-item ps-5 ">
+                                <a class="nav-link text-white" href="#Buy">How To Buy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 ps-5 mx-auto">
+
+                    <button type="button" class="p-2 text-white fw-bold rounded"
+                        style="background-color: #ffa200; border: none;">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.bizhooter"
+                            style="text-decoration: none; color: white;">
+                            Buy & Stake Now
+                        </a></button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container pt-5 pb-5 mt-5">
+            <div class="row">
+                <div class="col-sm-6 pb-4">
+                    <p class="fs-5  ">Launching on Major Exchanges After the Presale</p>
+                    <p class="fs-1">Otter Bitcoin — &nbsp;<span class="fs-1 " style="color: #1FF9AB;">The Future <br> of
+                            Predict-To-Earn. Huge <br> Early Rewards</span></p>
+                    <p>
+                        Otter Bitcoin introduces revolutionary Gamified Otter Staking, allowing for exponential rewards,
+                        and up to 100% Token bonuses! New challenges LIVE every week.
+                    </p>
+                    <p class="mt-4">
+                        <button class="btn text-center p-2"
+                            style="background-color: #0a5a3c; color: #fefefe; font-size: 20px;">Otter Paper</button>
+                    </p>
+                </div>
+                <div class="col-sm-6  text-center">
+                    <div class="box">
+                        <p class="fs-5 pt-3">Last Chance to Buy Before Presale   Ends!</p>
+                        <div class="time">
+                            <p class="p-3 "><span id="hour" class="fs-1  m-3"></span><span id="minute" class="fs-1 m-3"></span><span id="second" class="fs-1 m-3">  </span></p>
+                            
+    
+                        </div>
+                        <p class="fs-5 mt-3">USDT RAISED: $7,883,796.37</p>
+                        <p>YOUR PURCHASED $GBTC
+                            = 0</p>
+                        <p>YOUR STAKEABLE $GBTC
+                            = 0
+                        </p>
+                        <p class="text-primary fw-bold">1 $GBTC = $1.1062     </p>
+                        <p><button class="btn bg-danger m-2"><img src="BNB.svg" alt=""> &nbsp;BNB</button><button class="btn bg-warning m-2"><img src="usdt.svg" alt=""> &nbsp;USDT</button><button class="btn bg-success m-2"><img src="card.svg" alt=""> &nbsp;CARD</button></p>
+                        <p >
+                           <label for="" class="m-2">USDT you pay</label>
+                           <label for="" class="m-2">&nbsp;&nbsp;$GBTC you receive</label>
+                        </p>
+                        <p class="d-flex ">
+                            <input type="text" name="" id="" placeholder="USDT" class="form-control w-25 mx-auto">
+                            <input type="text" name="" id="" placeholder="GBTC"  class="form-control w-25 mx-auto">
+                        </p>
+                        <p>
+                            <button class="btn bg-warning    m-3">Connect Wallet</button>
+                            <button class="btn bg-primary m-3">Buy with BNB</button>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+    </header>
+
+    <div class="container-fluid" style="position:absolute">
+        <!-- arrow top -->
+        <a href="#"> <button type="button" id="arrowbtn"
+                style="right: 10px; background-color: #0a5a3c; border: none; position: fixed; bottom:5%; z-index:1; display: none;"
+                class="p-3 rounded ">
+                <i class="fa-solid fa-arrow-up text-white fs-5"></i>
+            </button></a>
+
+    </div>
+
+    <!-- Otter Bitcoin Rewards — Gamified Otter Staking -->
+
+    <div class="container-fluid pb-5  " style="background-color: black;">
+        <div class="container pt-5">
+            <div class="row text-center">
+                <div class="col-sm-3 ">
+                    <p class="fw-bold">Total $GBTC Staked <br> <span class="fs-2 fw-bold">6,709,963</span></p>
+                </div>
+                <div class="col-sm-3 ">
+                    <p class="fw-bold">% of $GBTC Staked <br> <span class="fs-2 fw-bold">64%</span></p>
+                </div>
+                <div class="col-sm-3 ">
+                    <p class="fw-bold">Rewards p/a <br> <span class="fs-2 fw-bold">86%</span></p>
+                </div>
+                <div class="col-sm-3 ">
+                    <p class="fw-bold">Total Rewards ($GBTC) <br> <span class="fs-2 fw-bold">1,265,831</span></p>
+                </div>
+            </div>
+            <a href="" name="Why"></a>
+            <div class="row text-center pt-5">
+                <p class="fs-1 ">Otter Bitcoin Rewards <span style="color: #1FF9AB;">— Gamified Otter <br>
+                        Staking</span></p>
+                <p>
+                    Otter Bitcoin is a crypto project that introduces an incredible new concept–Gamified Otter Staking!
+                    <br>
+                    Our innovative staking platform allows you to earn big by predicting Bitcoin trends, with more <br>
+                    groundbreaking gamification on the horizon. This offers cryptocurrency veterans and beginners a <br>
+                    unique chance to transform their market insights or gut feelings into impressive Otter Bitcoin <br>
+                    earnings. Stay tuned and get ready to engage in multiple prediction options and diverse staking <br>
+                    strategies, all designed for your success.
+
+                </p>
+                <a href="" name="How"></a>
+                <p class="pt-5">
+                    <img src="banner.gif" alt="" class="img-fluid h-75">
+                </p>
+                <p class="mt-2">
+                    <button class="btn text-center p-2"
+                        style="background-color: #0e3c07; color: #fefefe; font-size: 20px;">Buy & Stake Now</button>
+                </p>
+            </div>
+
+
+
+            <div class="row pt-5 text-center">
+                <p class="fs-1 " style="color: #1FF9AB;">Bitcoin Goes Otter <span>— What is Otter <br> Bitcoin ($GBTC)?
+                    </span></p>
+
+            </div>
+
+            <div class="row mx-auto pt-5">
+                <div class="col-sm-6 p-5"
+                    style="background: linear-gradient(105deg, rgba(31, 249, 171, .2) 0%, rgba(255, 255, 255, 0) 100%);">
+                    <p class="fs-2 ">
+                        Otter Bitcoin – The Eco- <br>Friendly Alternative
+                    </p>
+                    <p>
+                        Otter Bitcoin is the ultimate in sustainable crypto <br> earnings. Engage in weekly prediction
+                        challenges and <br> stake your tokens.
+
+                    </p>
+                </div>
+                <div class="col-sm-6 p-5">
+                    <p class="fs-2 ">
+                        Want to Earn Big? <span>hfgjg</span>
+                    </p>
+                    <p>
+                        Passive rewards have never been simpler.
+                    </p>
+                    <p class="mt-2">
+                        <button class="btn text-center p-2"
+                            style="background-color: #0e3c07; color: #fefefe; font-size: 20px;">Buy & Stake Now</button>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--Did you miss Bitcoin's  -->
+
+    <div class="container-fluid "
+        style="background-color: black; background-image: url(bg_mesh.svg); background-size: cover;" data-aos="fade-up">
+        <div class="container">
+            <div class="row text-center pt-5">
+                <p class="fs-1">Did you miss Bitcoin's <br> massive rise?</p>
+                <p>Here’s your chance to join Otter Bitcoin early at a fraction of the price</p>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-sm-3 p-4"
+                    style="background: linear-gradient(105deg, rgba(31, 249, 171, .2) 0%, rgba(255, 255, 255, 0) 100%);">
+                    <h3>Your Second Chance to Buy BTC Cheap</h3>
+                    <p>Get Otter Bitcoin Before It Hits The Market. This is an opportunity you won’t want to miss</p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2 text-center">
+                    <img src="arrow_logo.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3 p-4"
+                    style="background: linear-gradient(105deg, rgba(31, 249, 171, .2) 0%, rgba(255, 255, 255, 0) 100%);">
+                    <h3>Stake and Earn Even More</h3>
+                    <p>Weekly Bitcoin price prediction challenges offer unprecedented rewards for both you, and the
+                        planet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Otter BITCOIN TOKENOMICS -->
+    <div class="container-fluid pt-5 pb-5" style="background-color: rgb(11, 7, 7);" data-aos="fade-up">
+
+        <div class="container ">
+            <div class="row pb-5">
+                <h1 class="text-center">Otter BITCOIN TOKENOMICS</h1>
+                <div class="col-sm-6 pt-5">
+                    <h4>Presale - 50%</h4>
+                    <p>Early adopters gain a significant advantage with the $GBTC Presale, setting the stage for a
+                        dynamic beginning in our venture.</p>
+                    <h4>Staking Rewards - 20%</h4>
+                    <p>A substantial allocation is dedicated to rewarding those participating in staking, supporting the
+                        long-term value and stability of $GBTC.</p>
+                    <h4>Marketing - 12.50%</h4>
+                    <p>This portion focuses on crafting impactful campaigns and is key to enhancing global visibility
+                        and keeping $GBTC prominent.</p>
+                    <h4>Liquidity - 7.50%</h4>
+                    <p>Essential for maintaining fluidity in trading, this allocation is split evenly between
+                        Centralized and Decentralized Exchanges (CEX & DEX), ensuring $GBTC's robust market presence.
+                    </p>
+                    <h4>Community Rewards - 10%</h4>
+                    <p>This allocation is dedicated to nurturing our community and rewarding engagement and involvement.
+                    </p>
+                </div>
+
+                <div class="col-sm-6 pt-5">
+                    <img src="tokenomics-img.svg" alt="" class="img-fluid mt-5">
+                </div>
+            </div>
+
+
+            <!-- Otter BITCOIN ROADMAP -->
+            <a href="" name="Roadmap"></a>
+            <div class="row pb-5  mx-auto pt-5">
+                <h1 class="text-center">Otter BITCOIN ROADMAP</h3>
+                    <div class="col-sm-10 pt-4  mx-auto">
+                        <div class="row">
+                            <div class="col-sm-6 m-4 p-3 mx-auto"
+                                style="background: linear-gradient(105deg, rgba(31, 249, 171, .2) 0%, rgba(255, 255, 255, 0) 100%);">
+                                <h1>Step 1</h1>
+                                <h3>Presale Launch</h3>
+                                <p>
+                                    Kick off with an affordable presale of $GBTC to <br> fund tech and marketing. This
+                                    step is key to <br>
+                                    building a strong foundation for Otter Bitcoin’s future.
+                                </p>
+                            </div>
+                            <div class="col-sm-6 m-4 p-3  "
+                                style="background: linear-gradient(105deg, rgba(31, 249, 171, .2) 0%, rgba(255, 255, 255, 0) 100%);">
+                                <h1>Step 2</h1>
+                                <h3>Staking & Predictions Go Live</h3>
+                                <p>
+                                    Start our unique staking and Bitcoin price guessing game to get early users
+                                    involved. This early action helps build our community's strength.
+                                </p>
+                            </div>
+                            <div class="col-sm-6 m-4 p-3  mx-auto"
+                                style="background: linear-gradient(105deg, rgba(31, 249, 171, .2) 0%, rgba(255, 255, 255, 0) 100%);">
+                                <h1>Step 3</h1>
+                                <h3>Token Release</h3>
+                                <p>
+                                    $GBTC hits Ethereum DEXs, with some supply locked to keep trading smooth and
+                                    decentralized. This step is about making sure $GBTC trading is fair and steady.
+                                </p>
+                            </div>
+                            <div class="col-sm-6 m-4  p-3  "
+                                style="background: linear-gradient(105deg, rgba(31, 249, 171, .2) 0%, rgba(255, 255, 255, 0) 100%);">
+                                <h1>Step 4</h1>
+                                <h3>Earn Rewards, Build Community</h3>
+                                <p>
+                                    Let $GBTC holders earn by staking and playing weekly price prediction games,
+                                    encouraging everyone to take part and help the community thrive.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  -->
+    <a href="" name="Buy"></a>
+    <div class="container-fluid" style="background-color: black;" data-aos="fade-up">
+        <div class="container pt-5">
+
+            <div class="row mx-auto">
+                <div class="col-sm-5">
+                    <h1>How to Join the Otter Bitcoin Presale</h1>
+                    <p>The Otter Bitcoin presale is your chance to secure $GBTC before the token launch. You can buy
+                        with crypto or bank card, plus you can stake your tokens to earn rewards during the presale.</p>
+                    <p>
+                        Once the presale has finished, you’ll be able to claim your tokens, either on the claim date or
+                        7 days later if your tokens are staked.
+                    </p>
+                    <p class="mt-5">
+                        <button class="btn btn-success">Buy & Stack Now</button>
+                    </p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><img src="buy-crypto.svg" alt=""></p>
+                            <h4>Buy With Crypto</h4>
+                            <p>
+                                Buy $GBTC tokens with ETH or <br> USDT. Make sure you have enough <br> ETH to cover gas.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p><img src="buy-card.svg" alt=""></p>
+                            <h4>Buy With Card</h4>
+                            <p>
+                                Buy $GBTC tokens using your bank <br> card. Check the buy flow for the <br> fees.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 pt-4">
+                            <p><img src="stake-gbtc.svg" alt=""></p>
+                            <h4>Stake $GBTC</h4>
+                            <p>
+                                Stake your tokens either when <br> you’re buying or on the staking <br> dashboard. Earn
+                                rewards now!
+                            </p>
+                        </div>
+                        <div class="col-sm-6 pt-4">
+                            <p><img src="claim-gbtc.svg" alt=""></p>
+                            <h4>Claim $GBTC</h4>
+                            <p>
+                                Claim your $GBTC tokens on claim <br> day! This will happen once the <br> presale has
+                                ended.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq" id="faq" data-aos="fade-up">
+            <div class="container  pt-5 pb-5" data-aos="fade-up">
+                <div class="row pb-5">
+                    <h2 class="text-center  pb-4 fw-bold">Frequently Asked question</h2>
+                    <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold fs-5 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne " style="background-color: #1faea2; color: white;">
+                                    How To Buy Otter Bitcoin?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body text-dark ">
+                                    <p class="text-dark">Otter Bitcoin is currently in presale and can be purchased with
+                                        ETH, USDT, and by
+                                        card! The buy widget at the top of this page allows you to purchase your Otter
+                                        Bitcoin, or $GBTC. Once purchased, you may begin staking your Otter Bitcoin for
+                                        huge rewards!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold fs-5 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo" style="background-color: #1faea2; color: white;">
+                                    What is Otter Bitcoin ($GBTC)?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-dark">Otter Bitcoin is a new cryptocurrency that allows holders to
+                                        stake their tokens utilizing the revolutionary Gamified Otter Staking mechanic.
+                                        During the presale, Otter Bitcoin can be staked for large rewards, and once the
+                                        token is launched after the presale, holders can predict the price of Bitcoin
+                                        for even MORE rewards.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed fw-bold fs-5 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false"
+                                    aria-controls="collapseThree" style="background-color: #1faea2; color: white;">
+                                    How do I Contact the Otter Bitcoin Team?
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-dark">Need help or have any questions? You can contact the Otter
+                                        Bitcoin team by joining the Telegram group, where a member of staff will be
+                                        happy to help.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed fw-bold fs-5 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree" style="background-color: #1faea2; color: white;">
+                                    Is Otter Bitcoin Eco-Friendly?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-dark">Yes! Otter Bitcoin utilizes 10,000 times LESS energy than
+                                        traditional Bitcoin. Otter Bitcoin is on the energy-efficient Ethereum
+                                        Blockchain which reduces the energy consumption of $GBTC to almost zero. If you
+                                        care about the planet, then Otter Bitcoin is for you.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed fw-bold fs-5 text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false"
+                                    aria-controls="collapseThree" style="background-color: #1faea2; color: white;">
+                                    When is the Otter Bitcoin Presale?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-dark">The Otter Bitcoin presale is live now! The sale price increases
+                                        with every presale stage, so the best time to buy is now. Every single presale
+                                        purchaser will be able to purchase Otter Bitcoin for a drastically reduced price
+                                        as compared to the launch price of Otter Bitcoin ($GBTC).</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- © 2024 Otter Bitcoin -->
+    <div class="container-fluid"
+        style=" background: linear-gradient(-90deg, rgba(0, 28, 31, 0.8), rgba(21, 25, 26, 0.8)); " data-aos="fade-up">
+        <div class="container ">
+            <div class="row text-center pb-3">
+                <p class="pb-5 pt-3 ">© 2024 Otter Bitcoin</p>
+                <p class="mt-3">DISCLAIMER</p>
+                <p>Cryptocurrency investments carry a high risk of volatility. Be aware of the tax implications, as
+                    profits may be subject to capital gains or other taxes in your jurisdiction. Cryptocurrency
+                    regulations can vary, so ensure you understand the rules in your area. Conduct thorough research and
+                    invest only what you can afford to lose.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
